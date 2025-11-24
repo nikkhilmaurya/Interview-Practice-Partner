@@ -2,7 +2,7 @@
 
 This document contains the transcript of a mock interview for the **Software Development Engineer (SDE)** role.  
 The conversation demonstrates responses related to **Object-Oriented Programming (OOP)** principles and real project examples.
-Model used in this is Gemini flash 2.5
+Model used in this is Gemini 2.5 flash
 
 ---
 
