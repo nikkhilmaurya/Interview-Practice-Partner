@@ -55,22 +55,22 @@ G -->|on 'feedback'| H[Evaluation Engine]
 ---
 
 ## Setup Instructions
-1. Clone Repository
-git clone https://github.com/<your-username>/interview-practice-partner.git
-cd interview-practice-partner
+- 1. Clone Repository
+-- git clone https://github.com/nikkhilmaurya/interview-practice-partner.git
+-- cd interview-practice-partner
 
-2. Install Dependencies
-pip install -r requirements.txt
+- 2. Install Dependencies
+-- pip install -r requirements.txt
 
-3. Environment Variables
+- 3. Environment Variables
 
-Create .env
+-- Create .env
 
-GEMINI_API_KEY="your_key_here"
-GOOGLE_APPLICATION_CREDENTIALS="path_to_google_service.json"
+-- GEMINI_API_KEY="your_key_here"
+-- GOOGLE_APPLICATION_CREDENTIALS="path_to_google_service.json"
 
-4. Run Application
-python3 main.py
+- 4. Run Application
+-- python3 main.py
 
 ## Demo Scenarios to Test
 | Scenario Type      | Example Behavior                   |
@@ -89,40 +89,13 @@ python3 main.py
 | Intelligence             | Deep dive on tech words, project reasoning         |
 | Adaptability             | Reactive responses & handling different personas   |
 
-## 🎯 Expected Outcomes
-
-Interactive realistic interview practice
-
-Voice mode simulating live environment
-
-Personalized performance feedback
-
-Supports different job categories
-
-🎤 How to Present in Video (Walkthrough)
-
-Start the app and show role selection
-
-Record voice interaction demonstrating:
-
-Real-time STT
-
-Follow-up questions based on content
-
-Trigger "feedback" to show automated evaluation
-
-Show multiple conversation styles (Confused, Efficient, Chatty)
-
-Explain architecture diagram & design reasoning
-
-Show GitHub code structure briefly
 
 ## 📁 Repository Structure
-📦 interview-practice-partner
- ┣ 📜 main.py
- ┣ 📜 requirements.txt
- ┣ 📜 README.md
- ┗ 📜 .env.example
+- 📦 interview-practice-partner
+-- ┣ 📜 main.py
+--- ┣ 📜 requirements.txt
+---- ┣ 📜 README.md
+----- ┗ 📜 .env.example
 
 ## 🏁 Final Note
 
