@@ -2,6 +2,8 @@
 
 **Role Selected:** Software Development Engineer (SDE)  
 **Mode:** Text-based mock interview  
+**Model Used:** Gemini 2.5 pro  
+
 
 ---
 
