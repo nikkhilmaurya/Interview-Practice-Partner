@@ -65,8 +65,8 @@ G -->|on 'feedback'| H[Evaluation Engine]
    pip install -r requirements.txt
 ```
 ### 3. Environment Variables
+#### Create .env File
 ```bash
-   Create .env
    GEMINI_API_KEY="your_key_here"
    GOOGLE_APPLICATION_CREDENTIALS="path_to_google_service.json"
 ```
