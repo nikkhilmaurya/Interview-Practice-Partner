@@ -1,5 +1,3 @@
-<img width="1349" height="96" alt="basic_architecture_flowchart" src="https://github.com/user-attachments/assets/c746527e-f138-4199-b5c1-ef95b8839986" />
-
 # 🎤 Interview Practice Partner
 
 An AI-powered voice-based mock interview system designed to simulate real interview scenarios with adaptive conversation flow, follow-up questioning, and performance evaluation. The project supports interviews for **SDE**, **Data Analyst**, and **Sales / Business Development** roles, prioritizing **conversational realism** and **intelligent follow-ups**.
@@ -8,7 +6,7 @@ An AI-powered voice-based mock interview system designed to simulate real interv
 
 ## 🚀 Features
 
-- 🧠 **Realistic Interview Flow** using Gemini API (Gemini 2.5 Pro)
+- 🧠 **Realistic Interview Flow** using Gemini API (Gemini 2.5 Pro/Flash)
 - 🎤 **Voice Interaction** using Google Cloud Speech-to-Text & Text-to-Speech
 - 👂 **Adaptive Follow-Up Questions** based on user responses
 - 📊 **Post-Interview Evaluation & Feedback**
@@ -30,6 +28,8 @@ E --> F[Audio Output to User]
 C --> G[Conversation History Store]
 G -->|on 'feedback'| H[Evaluation Engine]
 ```
+
+<img width="1349" height="96" alt="basic_architecture_flowchart" src="https://github.com/user-attachments/assets/c746527e-f138-4199-b5c1-ef95b8839986" />
 
 ## 🧠 Design Decisions
 
@@ -55,22 +55,25 @@ G -->|on 'feedback'| H[Evaluation Engine]
 ---
 
 ## Setup Instructions
-- 1. Clone Repository
--- git clone https://github.com/nikkhilmaurya/interview-practice-partner.git
--- cd interview-practice-partner
-
-- 2. Install Dependencies
--- pip install -r requirements.txt
-
-- 3. Environment Variables
-
--- Create .env
-
--- GEMINI_API_KEY="your_key_here"
--- GOOGLE_APPLICATION_CREDENTIALS="path_to_google_service.json"
-
-- 4. Run Application
--- python3 main.py
+### 1. Clone Repository
+```bash
+  git clone https://github.com/nikkhilmaurya/interview-practice-partner.git
+  cd interview-practice-partner
+```
+### 2. Install Dependencies
+```bash
+   pip install -r requirements.txt
+```
+### 3. Environment Variables
+```bash
+   Create .env
+   GEMINI_API_KEY="your_key_here"
+   GOOGLE_APPLICATION_CREDENTIALS="path_to_google_service.json"
+```
+### 4. Run Application
+```bash
+   python3 main.py
+```
 
 ## Demo Scenarios to Test
 | Scenario Type      | Example Behavior                   |
@@ -91,11 +94,13 @@ G -->|on 'feedback'| H[Evaluation Engine]
 
 
 ## 📁 Repository Structure
+```bash
 - 📦 interview-practice-partner
 -- ┣ 📜 main.py
 --- ┣ 📜 requirements.txt
 ---- ┣ 📜 README.md
 ----- ┗ 📜 .env.example
+```
 
 ## 🏁 Final Note
 
